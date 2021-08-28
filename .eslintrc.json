@@ -1,3 +1,18 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".tsx",
+          ".jsx",
+          ".ts"
+        ]
+      }
+    ],
+    "@next/next/no-img-element": "off"
+    // "react/react-in-jsx-scope": "off"
+  }
 }
