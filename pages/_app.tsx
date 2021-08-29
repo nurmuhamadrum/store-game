@@ -1,10 +1,13 @@
+import type { AppProps } from "next/app";
+import Head from "next/head";
+import React from "react";
+
 import "../styles/homepage.css";
 import "../styles/utilities.css";
 import "../styles/detail.css";
 import "../styles/checkout.css";
-import type { AppProps } from "next/app";
-import Head from "next/head";
-import React from "react";
+import "../styles/complete-checkout.css";
+
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <React.Fragment>
